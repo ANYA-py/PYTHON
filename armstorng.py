@@ -1,8 +1,6 @@
 a = int(input("enter a number\n"))
 e = a
-b = 0
-for i in range(len(str(a))):
-    b = b+1
+b = len(str(a))
 c = 0
 for i in range(len(str(a))):
     d = a%10
